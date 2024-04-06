@@ -4,16 +4,42 @@ body {
   font-size: 16px;
 }
 
-ul {
-  li {
-    list-style-type: none;
-    a {
-      font-size: 20px;
-      color: #171515;
+h1 {
+  color: #6F5B3E;
+  font-size: 40px;
+}
+
+#recipe-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  ul {
+    display: flex;
+    .recipe-column {
+      background-color: #C4AE78;
+      width: 400px;
+      height: 400px;
+      border-radius: 20px;
+      margin: 15px;
+      padding: 15px;
+      li {
+        list-style-type: none;
+      }
+      img {
+        margin-top: 15px;
+        margin-bottom: 5px;
+        height: 350px;
+        width: 350px;
+      }
+      .link a {
+        font-size: 20px;
+        color: #171515;
+        cursor: pointer;
+      }
     }
   }
 }
 
-h1 {
-  color: #6F5B3E;
-}
+

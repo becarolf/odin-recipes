@@ -4,17 +4,47 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Odin Recipes</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <h1>Odin Recipes</h1>
 
-    <ul>
-      <li>
-        <a href="recipes/feijoada.html">Feijoada (Brazilian Black Bean Stew)</a>
-      </li>
-      <li><a href="recipes/cinnamon-roll.html">Cinnamon Rolls</a></li>
-      <li><a href="recipes/vegan-cacio-e-pepe.html">Vegan Cacio e Pepe</a></li>
-    </ul>
+    <div id="recipe-container">
+      <ul>
+        <div class="recipe-column">
+          <li>
+            <a href="recipes/feijoada.html"
+              ><img
+                src="./images/feijoada.jpg"
+                alt="Image of Feijoada (Brazilian Black Bean Stew)"></a>
+                <div class="link"> <a href="recipes/feijoada.html">Feijoada (Brazilian Black Bean Stew)</a></div>
+          </li>
+        </div>
+
+        <div class="recipe-column">
+          <li>
+            <a href="recipes/cinnamon-roll.html"
+              ><img
+                src="./images/cinnamon-roll.jpg"
+                alt="Image of a cinnamon roll served on a white plate"
+              /></a
+            >
+            <div class="link"><a href="recipes/cinnamon-roll.html">Cinnamon Rolls</a></div>
+          </li>
+        </div>
+
+        <div class="recipe-column">
+          <li>
+            <a href="recipes/vegan-cacio-e-pepe.html"
+              ><img
+                src="./images/cacio-e-pepe.jpg"
+                alt="Image of a vegan cacio e pepe served on a bowl"
+              /></a
+            >
+            <div class="link"><a href="recipes/vegan-cacio-e-pepe.html">Vegan Cacio e Pepe</a></div>
+          </li>
+        </div>
+      </ul>
+    </div> <!--  end of .recipe-container -->
   </body>
 </html>
